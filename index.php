@@ -39,12 +39,6 @@
   </div>
 </div>
 
-<?php
-include('config.php');
-$empleados      = ("SELECT * FROM empleados ORDER BY id DESC ");
-$resulEmpleado  = mysqli_query($con, $empleados);
-?>
-
 <div class="row clearfix">
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
   <div class="body">
